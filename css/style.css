@@ -1,0 +1,184 @@
+body{
+    height: 4000px;
+    padding-top: 60px
+}
+
+
+/***************** Start Overriding Bootstrap ******************/
+
+/* Main Navbar */
+.navbar{
+    min-height: 60px;
+}
+/* Active Link */
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover{
+    background-color: #e41b17; 
+}
+
+/* Link Color & Brand Color */
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-brand{
+    color: #bbb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px
+}
+.navbar-inverse .navbar-brand{
+    font-size: 30px;
+}
+.navbar-inverse .navbar-brand span{
+    color: #e41b17
+}
+.navbar-inverse .navbar-brand:hover span{
+    color: #fff;
+}
+/* Drop Down Menu */
+.dropdown-menu{
+    background-color: #222;
+    border-top: 3px solid #e41b17;
+    min-width: 200px;
+}
+.navbar-right .dropdown-menu{
+    left: 0;
+    right: auto;
+}
+.dropdown-menu>li>a{
+    color: #bbb;
+    padding: 6px 20px;
+    transition: padding 0.5s ease;
+    -webkit-transition: padding 0.5s ease;
+    -moz-transition: padding 0.5s ease;
+    -ms-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+}
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus{
+    background-color: #e41b17;
+    color: #fff;
+    padding-left: 30px;
+}
+.dropdown-menu .divider{
+    background-color: #871818;
+}
+.navbar-toggle{
+    margin-top: 13px;
+}
+
+.carousel-caption{
+    bottom: 125px;
+    background: rgba(3,3,3,0.5);
+
+}
+
+.carousel-indicators li{
+    height: 15px;
+    width: 15px;
+    border-color: #e41b17
+}
+.carousel-indicators .active{
+    height: 17px;
+    width: 17px;
+    background-color: #e41b17;
+    border-color: #e41b17
+}
+/***************** End Overriding Bootstrap ******************/
+
+
+/* start About Section */
+.about{
+    padding: 60px 0;
+}
+.about .lead{
+    color: #888;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.about h1 span{
+    color: #e41b17;
+}
+.about h1{
+    font-weight: bold;
+}
+/* End About Section */
+
+/* Start Section Features */
+.features{
+    padding: 60px 0;
+    background: #eee;
+}
+.features h1{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.features .feat p{
+    line-height: 1.8em
+}
+.features .feat span.glyphicon{
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #871818
+}
+.features .feat{
+    margin-bottom: 40px;
+}
+/* End Section Features */
+
+/* Start Testimonials Section */
+.testimonials{
+    padding: 60px 0;
+}
+.testimonials h1{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.testimonials .lead{
+    line-height: 1.8em;
+    margin-bottom: 10px;
+}
+.testimonials span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #871818
+}
+.testimonials .carousel-inner{
+    min-height: 180px;
+}
+.testimonials .carousel-indicators{
+    position: static;
+    width: 100%;
+    margin-left: auto;
+}
+.testimonials .carousel-indicators li{
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.3;
+    background: none;
+    border:3px solid #333;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+}
+.testimonials .carousel-indicators li.active{
+    opacity: 1;
+    background: none;
+    border:3px solid #e41b17;
+}
+.testimonials .carousel-indicators li img{
+    max-width: 100%;
+}
+/* End Testimonials Section */
+
+
+
+#3e6652
+#cc9933
+#004726
+#006633;
+#fc6
