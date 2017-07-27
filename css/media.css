@@ -1,0 +1,16 @@
+@media (max-width:767px) {
+    .navbar-inverse .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .subscribe .form-control {
+        margin: 20px auto;
+    }
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse {
+        max-height: none;
+    }
+    .awesome-work {
+        text-align: center;
+    }
+}
