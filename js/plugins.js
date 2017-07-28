@@ -65,7 +65,7 @@ $(function () {
         $(".loading-overlay .sk-cube-grid").fadeOut(1000, function () {
 
             // Show The Scroll
-            $("body").css("overflow", "auto");
+            //$("body").css("overflow", "auto");
             $(this).parent().fadeOut(1000, function () {
                 $(this).remove();
             });
